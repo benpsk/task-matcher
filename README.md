@@ -19,6 +19,10 @@ sail up
 composer install 
 ./vendor/bin/sail up
 ```
+**3.1 build frontend
+```shell
+./vendor/bin/sail npm run build
+```
 
 **4. run migration and seeders**
 ```shell
